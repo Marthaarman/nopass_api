@@ -26,7 +26,7 @@ Paste this snippet at the end of the <form> where you want the noPass widget to 
 
 `<div class="mhwd-nopass" data-sitekey="your_site_key"></div>`
 
-In order to submit the form directly on approval you can add the "form-submit" tag to the DIV element containing the "mhwd-nopass" class.
+In order to submit the form directly on approval you can add the "submit-form" tag to the DIV element containing the "mhwd-nopass" class.
 
 ###Server side
 After each authentication you can verify the authentication on the server side using an API request in PHP. 
