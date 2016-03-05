@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>noPass API Example</title>
+        <link rel="stylesheet" type="text/css" href="style/example1.css" />
+        <!--The JavaScript resource!-->
+        <script src="https://nopass.mhwebdevelopment.nl/api/api.js"></script>
+    </head>
+    
+    <body>
+    	<div id="api_container">
+            <div id="comment">
+                This api will <u>not</u> automatically submit the form upon approval.
+            </div>
+            <div id="api">
+                <form method="post" action="authenticate.php">
+                    <h2>Enter your mobile number</h2>
+                    <!--The API Element, don't forget to place your site key!-->
+                    <div class="mhwd-nopass" data-sitekey="your_site_key"></div>
+                    <br />
+                    <br />
+                    <input type="submit" value="Authenticate me" />
+                </form>
+            </div>
+      	</div>
+    </body>
+</html>
